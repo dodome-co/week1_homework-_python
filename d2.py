@@ -6,7 +6,7 @@ class Fighter:
         self.defense = defense
 
     def super_saiyan(self):
-        return self.attack * 2
+        self.attack = self.attack * 2
     
 
     def punch(self,opponent):
@@ -39,4 +39,4 @@ while True:
         if goku.hp <= 0:
             print(f"{goku.name}は倒れた！{vegita.name}の勝利")
             break
-turn += 1
+    turn += 1
