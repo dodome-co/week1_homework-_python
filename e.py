@@ -27,6 +27,7 @@ classでPokemonの属性を定義します。
 ピカチュウが勝利した場合「コラッタはたおれた！ピカチュウはけいけんちをかくとくした」と表示します。
 
 """
+
 class Pokemon:
     def __init__(self, name,hp,attack, defense,speed):
         self.name = name
