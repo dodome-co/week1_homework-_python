@@ -2,7 +2,7 @@ name = input("名前を入力してください:")
 birth_day =input("xxxx/xx/xxの形で生年月日を入力してください:")
 
 birth_day_number =birth_day.split("/")
-total_birth_day_number = int(birth_day_number[0])+int(birth_day[1])+int(birth_day_number[2])
+total_birth_day_number = int(birth_day_number[0])+int(birth_day_number[1])+int(birth_day_number[2])
 
 name_number = 0
 
