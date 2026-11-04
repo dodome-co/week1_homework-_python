@@ -1,10 +1,7 @@
-for i in range(2,40):
-    if any((i % n) == 0 for n in range(2, i)):
+number_list=[]
+for number in range(2,41):
+    if any((number % n) == 0 for n in range(2, number)):
         continue 
     else:
-        print(i)
-#リストで表示する方法がわからない
-
-
-
-
+        number_list.append(number)
+print(number_list)
